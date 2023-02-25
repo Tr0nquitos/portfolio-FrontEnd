@@ -1,0 +1,20 @@
+.div_sobre_mi h1{
+    text-align: center;
+    font-size: 48px;
+    padding: 20px 0px;
+}
+.div_sobre_mi span {
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.contenedor-sobremi{
+    padding: 50px 20px;
+}
+.img img{
+    width: 600px;
+    height: 300px;
+}
+.img{
+    padding: 10px 0px;
+}
