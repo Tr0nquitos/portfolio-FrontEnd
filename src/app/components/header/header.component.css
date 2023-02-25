@@ -1,5 +1,18 @@
-.wrapper{
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
+.navbar-nav{
+    font-size: 20px;
+}
+.navbar-nav li{
+    padding-left: 10px;
+    margin:auto;
+}
+.navbar-nav a{
+    transition: .3s;
+}
+.navbar-nav a:hover{
+    color: #198754;
+}
+
+button{
+    margin-top: 2px;
+    transition: .3s;
 }
