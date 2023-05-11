@@ -1,5 +1,5 @@
 footer{
-    background-color:#252A2E ;
+    background-color:rgb(37, 42, 46) ;
     color: white;
     padding: 50px 0 30px 0;
     position: relative;
@@ -14,10 +14,13 @@ footer .redes a{
     color: white;
     text-decoration: none;
     display: inline-block;
-    border: 1px solid white;
+    border: 2px solid white;
     margin: 5px;
     font-size: 23px;
     transition: .3s;
+}
+footer .redes i{
+    margin: auto;
 }
 .up{
     display:block ;
@@ -28,6 +31,6 @@ footer .redes a{
     border: 1px solid white;
     left: 50%;
     transform: translateX(-50%);
-    top: -14%;
+    top: -10%;
     font-size: 20px;
 }
