@@ -1,0 +1,23 @@
+<div class="conteiner-register row d-flex justify-content-center mt-5 minh-100">
+    <form #f="ngForm" (ngSubmit)="onLogin()" novalidate class="register-form col-md-4 text-white border-success p-4">
+        <div class="text-center justify-content-center mb-3">
+            <h1>Ingresa tu cuenta</h1>
+        </div>
+        <div class="form-outline form-white mb-4">
+            <input type="email" id="nombreUsuario" name="nombreUsuario" class="form-control form-control-lg"
+              [(ngModel)]="nombreUsuario" required />
+            <label class="form-label" for="nombreUsuario">Usuario</label>
+          </div>
+
+          <div class="form-outline form-white mb-4">
+            <input type="password" id="password" name="password" class="form-control form-control-lg" [(ngModel)]="password"
+              required />
+            <label class="form-label" for="password">Password</label>
+          </div>
+
+          <!-- <p class="small mb-5 pb-lg-2"><a class="text-white-50" href="#!">Forgot password?</a></p> -->
+
+          <button class="btn btn-outline-light btn-lg px-5" type="submit">Login</button>
+
+    </form>
+</div>
